@@ -4,7 +4,8 @@
         "OOPsInJava",
         "Basic DSA",
         "BackTracking",
-        "Dynamic Programming"
+        "Dynamic Programming",
+        "Searching"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
