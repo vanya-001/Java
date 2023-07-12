@@ -1,12 +1,13 @@
 {
     "java.project.sourcePaths": [
         "src",
+        "Sorting",
+        "Searching",
         "OOPsInJava",
+        "Dynamic Programming",
         "Basic DSA",
         "BackTracking",
-        "Dynamic Programming",
-        "Searching",
-        "Sorting"
+        "Graphs"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
