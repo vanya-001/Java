@@ -4,10 +4,11 @@
         "Sorting",
         "Searching",
         "OOPsInJava",
+        "Graphs",
         "Dynamic Programming",
         "Basic DSA",
         "BackTracking",
-        "Graphs"
+        "Trie"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
