@@ -4,52 +4,52 @@ public class ReverseList {
 
     Node head;
 
-    class Node{
-        int data; 
+    class Node {
+        int data;
         Node next;
 
-        Node(int data){
+        Node(int data) {
             this.data = data;
             this.next = null;
         }
     }
 
-    public void addLast(int data){
+    public void addLast(int data) {
         Node newnode = new Node(data);
-        if(head == null){
+        if (head == null) {
             head = newnode;
             return;
         }
 
         Node currNode = head;
-        while(currNode.next!=null){
+        while (currNode.next != null) {
             currNode = currNode.next;
         }
         currNode.next = newnode;
     }
 
-    public void printList(){
-        if(head == null){
-            System.out.println("List is EMpty!");
+    public void printList() {
+        if (head == null) {
+            System.out.println("List is Empty!");
             return;
         }
 
         Node currNode = head;
-        while(currNode!=null){
+        while (currNode != null) {
             System.out.print(currNode.data + " -> ");
             currNode = currNode.next;
         }
         System.out.println("Null");
     }
 
-    public void reverseIterate(){
-        if(head == null || head.next == null){
+    public void reverseIterate() {
+        if (head == null || head.next == null) {
             return;
         }
 
         Node prevNode = head;
         Node currNode = head.next;
-        while(currNode!= null){
+        while (currNode != null) {
             Node nextNode = currNode.next;
             currNode.next = prevNode;
 
@@ -61,14 +61,14 @@ public class ReverseList {
         head = prevNode;
     }
 
-    public Node reverseRecursive(Node head){
-        if(head == null || head.next == null){
+    public Node reverseRecursive(Node head) {
+        if (head == null || head.next == null) {
             return head;
         }
 
         Node newHead = reverseRecursive(head.next);
         head.next.next = head;
-        head.next=null;
+        head.next = null;
         return newHead;
     }
 
