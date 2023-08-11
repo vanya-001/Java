@@ -1,5 +1,7 @@
 package Arrays;
+
 import java.util.Scanner;
+
 public class Arrays2D {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,15 +10,15 @@ public class Arrays2D {
 
         int[][] num = new int[rows][col];
 
-        for(int i=0; i<rows; i++){
-            for(int j=0; j<col; j++){
-                System.out.println("Enter the number that is to be inputted in: [" +i+ "] ["+j+"]" );
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < col; j++) {
+                System.out.println("Enter the number that is to be inputted in: [" + i + "] [" + j + "]");
                 num[i][j] = sc.nextInt();
             }
         }
 
-        for(int i=0; i<rows; i++){
-            for(int j=0; j<col; j++){
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < col; j++) {
                 System.out.print(num[i][j] + " ");
             }
             System.out.println();
