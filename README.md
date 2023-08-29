@@ -1,4 +1,4 @@
-##DSA - Coding Practice Questions
+## DSA - Coding Practice Questions
 
 ## Getting Started
 
