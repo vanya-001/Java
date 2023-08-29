@@ -19,6 +19,6 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 ## Resources
 Feel free to use external resources like documentation, tutorials, and online coding platforms to aid you in solving the problems. Here are some recommended resources:
 
-GeeksforGeeks
-LeetCode
-HackerRank
+GeeksforGeeks <br>
+LeetCode <br>
+HackerRank <br>
