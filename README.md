@@ -1,6 +1,5 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## DSA - Coding Practice Questions
+Welcome to the Java DSA (Data Structures and Algorithms) Practice Repository! This repository is dedicated to helping you improve your coding skills in Java by providing a collection of DSA questions and exercises.
 
 ## Folder Structure
 
@@ -16,3 +15,10 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## Resources
+Feel free to use external resources like documentation, tutorials, and online coding platforms to aid you in solving the problems. Here are some recommended resources:
+
+GeeksforGeeks <br>
+LeetCode <br>
+HackerRank <br>
